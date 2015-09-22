@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>John Mazzucco | Developer</title>
+	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
+	<meta name="description" content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
+	<link rel="image_src" href="/images/notify_better_image.png" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+  <link href='css/timeline.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/mfglabs_iconset.css">
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+
+
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+
+      <section class="page1">
+        <div class="page_container" id="intro_content">
+          <!-- bg image: blow minds -->
+          <h1>John Mazzucco</h1>
+          <hr/><br/>
+          <h2>Web Developer &bullet; Toronto</h2>
+        </div>
+
+    <!--     <a href="#2"><img class="down_arrow" src="down_arrow.png"/></a> -->
+      </section>
+
+	    <section class="page2" id="about">
+	      <div class="page_container" id="about_content">
+          <!-- bg image: instill trust -->
+          <h1>About</h1>
+
+          <div class="about_left_content">
+            <img id="about_pic" src="me.png"/>
+            <div class="icons">
+             <a href="mailto:john.mazzucco@gmail.com"><i class="icon-paperplane_black"></i></a>
+
+            <a href="https://github.com/JMazzucco/" target="_blank"><i class="icon-git_circle"></i></a>
+            <a href="https://ca.linkedin.com/pub/john-mazzucco/2a/150/68b" target="_blank"><i class="icon-linked_in_circle"></i></a>
+           <a href="https://twitter.com/johnmazzucco" target="_blank"><i class="icon-twitter_circle"></i></a>
+            </div>
+          </div>
+
+          <div class="about_right_content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel magna eget dui rutrum pharetra quis sit amet augue. Proin elementum finibus mauris, a pretium turpis tempus eget. Duis eget finibus mi. Nam ut erat sed felis tempor consequat sed at tortor. Sed sollicitudin molestie sodales.</p>
+
+          <p>Check out my<b> <a href="Resume_Aug2015.pdf" target="_blank">resume</a></b></p>
+          </div>
+        </div>
+      </section>
+
+	    <section class="page3">
+	      <div class="page_container">
+        </div>
+      </section>
+
+      <section class="page4">
+
+          <div class='container' id="timeline_container">
+
+            <div class="experience_left">
+            <h1>Background</h1>
+              <div class="experience_info">
+                <div class="right_arrow" id="first_right">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, lorem id mollis rhoncus, sem ante pellentesque tellus, sit amet convallis leo nibh in odio. Proin tempus velit sed metus vulputate, ac rhoncus mi dapibus. Proin erat sapien, pretium vitae risus eu,
+                </div>
+
+                <div class="right_arrow" id="second_right">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, lorem id mollis rhoncus, sem ante pellentesque tellus, sit amet convallis leo nibh in odio. Proin tempus velit sed metus vulputate, ac rhoncus mi dapibus. Proin erat sapien, pretium vitae risus eu,
+                </div>
+              </div>
+              <div class="experience_info"></div>
+            </div>
+            <div class="tl">
+              <div class="bar"></div>
+              <div class="node"></div>
+              <div class="node"></div>
+              <div class="node"></div>
+              <div class="node"></div>
+              <div class="node"></div>
+            </div>
+
+            <div class="experience_right">
+              <div class="experience_info">
+                <div class="left_arrow" id="first_left">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, lorem id mollis rhoncus, sem ante pellentesque tellus, sit amet convallis leo nibh in odio. Proin tempus velit sed metus vulputate, ac rhoncus mi dapibus. Proin erat sapien, pretium vitae risus eu,
+                </div>
+
+                <div class="left_arrow" id="second_left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, lorem id mollis rhoncus, sem ante pellentesque tellus, sit amet convallis leo nibh in odio. Proin tempus velit sed metus vulputate, ac rhoncus mi dapibus. Proin erat sapien, pretium vitae risus eu,
+                </div>
+
+                   <div class="left_arrow" id="second_left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, lorem id mollis rhoncus, sem ante pellentesque tellus, sit amet convallis leo nibh in odio. Proin tempus velit sed metus vulputate, ac rhoncus mi dapibus. Proin erat sapien, pretium vitae risus eu,
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="page5">
+        <h1>Skills</h1>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
