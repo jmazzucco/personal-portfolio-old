@@ -78,11 +78,13 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 #about_content {
-  display: inline-block;
-  float: right;
-  width: 590px;
-  margin-top: 200px;
-  margin-right: 50px;
+  float: left;
+  width: 33%;
+  height: 100%;
+  margin-top: 0;
+  background-color: rgba(255,255,255,0.95);
+
+  /*margin-right: 50px;*/
 }
 
 #about_pic {
@@ -108,11 +110,10 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 .page2 {
-  background-image: url(../images/toronto.jpg);
+  background-image: url(../images/toronto_skyline.jpg);
    background-repeat:no-repeat;
     background-size:cover;
-   background-position: top;
-   background-size: 100% 110%;
+   background-position:25% 75%;
 }
 
 .page4 {
@@ -135,8 +136,6 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   background-color: rgba(0,0,0,0.8);
   margin-top: 33vh;
   border: 2px solid white;
-
-
 }
 
 #intro_content h1 {
@@ -145,14 +144,15 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
     line-height: 80px;
     font-weight: 500;
     letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    letter-spacing: -4px;
+    color: whitesmoke;
 }
 
 h1 {
-  margin-top: 0;
-  color: #FFF;
-  margin-bottom: 5px;
-  font-size: 70px;
-  letter-spacing: -4px;
+  font-family: 'Open Sans', sans-serif;
+
   font-weight: 100;
   text-align: left;
   padding-left: 10px;
@@ -161,7 +161,7 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  color: #FFF;
+  color: #DCDCDC;
   font-size: 25px;
   font-weight: 500;
   margin-top: 0;
@@ -226,9 +226,7 @@ hr {
   width:50px;
 }
 
-
 .tl {
-
   zoom: 110%;
   display: inline-block;
   float: left;
