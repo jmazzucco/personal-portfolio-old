@@ -81,25 +81,44 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   float: left;
   width: 33%;
   height: 100%;
-  margin-top: 0;
-  background-color: rgba(255,255,255,0.95);
+  padding: 30px;
+  background-color: rgb(255,255,255);
+  margin-right: 10px;
+  border: 1px ;
+}
 
-  /*margin-right: 50px;*/
+#about_content a:visited, #about_content a {
+  color: #000;
+}
+
+
+#about_content p a:hover {
+  opacity: 0.5;
+}
+
+#about_content h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 3em;
+  font-weight: 500;
+  margin-top: 65px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+  letter-spacing: 1px;
 }
 
 #about_pic {
   margin: 10px;
   width: 210px;
   border: 2px solid;
+  float: left;
+  margin-bottom: 20px;
 }
 
 #about_content p {
   text-align: left;
   margin-left: 10px;
-}
-
-.page1, .page3, .page5  {
-  background-color: #ABABAB;
 }
 
 .page1 {
@@ -116,14 +135,6 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
    background-position:25% 75%;
 }
 
-.page4 {
-  background-image: url(../images/desk.jpg);
-   background-repeat:no-repeat;
-    background-size:cover;
-   background-position: top;
-   background-size: 100% 110%;
-}
-
 .page3 {
   background-image: url(../images/walking_path.jpg);
    background-repeat:no-repeat;
@@ -132,8 +143,16 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
    background-size: 100% 100%;
 }
 
+.page4 {
+  background-image: url(../images/desk.jpg);
+   background-repeat:no-repeat;
+    background-size:cover;
+   background-position: top;
+   background-size: 100% 110%;
+}
+
 #intro_content {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(54,69,79,0.85);
   margin-top: 33vh;
   border: 2px solid white;
 }
@@ -150,16 +169,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
     color: whitesmoke;
 }
 
-h1 {
-  font-family: 'Open Sans', sans-serif;
-
-  font-weight: 100;
-  text-align: left;
-  padding-left: 10px;
-  text-align: center;
-}
-
-h2 {
+#intro_content h2 {
   font-family: 'Open Sans', sans-serif;
   color: #DCDCDC;
   font-size: 25px;
@@ -173,12 +183,12 @@ h2 {
   text-align: center;
 }
 
-hr {
-/*  border: 0;
-  height: 2px;
-  width: 80%;
-  float: left;
-  background-image: linear-gradient(to right, #000000, #505050, transparent);*/
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding-left: 10px;
+  text-align: center;
 }
 
 .down_arrow {
