@@ -315,8 +315,15 @@ h1 {
   width: 90%;
   margin: auto;
   margin-top: 4%;
-  background-color: white;
   height: 75vh;
+}
+
+.selected_work_tile {
+  display: inline-block;
+  margin: auto;
+  background-color: white;
+  width:33%;
+  height: 100%
 }
 
 .selected_work_container img {
