@@ -135,14 +135,9 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
    background-position:25% 75%;
 }
 
-
 .page3 {
-  background-image: url(../images/desk.jpg);
-   background-repeat:no-repeat;
-    background-size:cover;
-   background-position: top;
-   background-size: 100% 110%;
-}
+  background-color: #fafafa;
+ }
 
 #intro_content {
   background-color: rgba(54,69,79,0.85);
@@ -319,7 +314,9 @@ h1 {
 .selected_work_container {
   width: 90%;
   margin: auto;
+  margin-top: 4%;
   background-color: white;
+  height: 75vh;
 }
 
 .selected_work_container img {
