@@ -96,7 +96,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   opacity: 0.5;
 }
 
-#about_content h1, #background_info h1 {
+#about_content h1 {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 3em;
@@ -311,6 +311,11 @@ h1 {
   margin: 10%
 }
 
+.page_container h1 {
+  width: 90%;
+  text-align: left;
+}
+
 .selected_work_container {
   width: 90%;
   margin: auto;
@@ -318,12 +323,32 @@ h1 {
   height: 75vh;
 }
 
+.selected_work_container h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 3em;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+
+.selected_work_container h3 {
+  text-decoration: underline;
+}
+
 .selected_work_tile {
   display: inline-block;
   margin: auto;
   background-color: white;
-  width:33%;
-  height: 100%
+  width: 30%;
+  height: 85%;
+  text-align: left;
+  padding: 10px;
+}
+
+.selected_work_tile img {
+  max-width: 100%;
 }
 
 .selected_work_container img {
