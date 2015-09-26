@@ -80,17 +80,22 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 #about_content {
   float: left;
   width: 35vw;
+  max-width: 400px;
   height: 100%;
   padding: 30px;
-  background-color: #fafafa;
+  background-color: #F7F7F7;
   margin-right: 10px;
   border: 1px;
+}
+
+.about_tile {
+  background-color: white;
+  padding: 10px;
 }
 
 #about_content a:visited, #about_content a {
   color: #000;
 }
-
 
 #about_content p a:hover {
   opacity: 0.5;
@@ -101,7 +106,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   color: #000;
   font-size: 3em;
   font-weight: 500;
-  margin-top: 65px;
+  margin-top: 40px;
   margin-bottom: 10px;
   text-align: left;
   padding-left: 10px;
@@ -136,7 +141,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 .page3 {
-  background-color: #fafafa;
+  background-color: #F7F7F7;
  }
 
 #intro_content {
@@ -209,16 +214,6 @@ h1 {
   opacity: 1;
 }
 
-.about_left_content{
-  display: inline-block;
-  float: left;
-}
-
-.about_right_content{
-  display: inline-block;
-  width: 59%;
-}
-
 #cv_icon {
   border: 0;
   width:50px;
@@ -251,13 +246,7 @@ h1 {
   z-index: 1;
 }
 
-#background_info {
-  width: 65vw;
-  height: 100%;
-  float: right;
-  background-color: whitesmoke;
-  padding: 30px;
-}
+
 
 .arrow_box {
   position: relative;
@@ -318,6 +307,7 @@ h1 {
   margin: auto;
   margin-top: 4%;
   height: 80vh;
+  text-align: left;
 }
 
 .selected_work_container h1 {
