@@ -94,11 +94,14 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 #about_content a:visited, #about_content a {
-  color: #424242;;
+  color: #424242;
+   transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
 }
 
 #about_content p a:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #about_content h1 {
@@ -189,8 +192,6 @@ h1 {
   padding-left: 0;
 }
 
-
-
 .down_arrow {
   margin-top: 40vh;
   width: 3em;
@@ -218,12 +219,10 @@ h1 {
 }
 
 .icons i:hover {
-
-    opacity: 1;
+  opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-}
 }
 
 .page_container h1 {
@@ -281,15 +280,14 @@ h1 {
   color: #424242;
   display: inline-block;
    opacity: 1;
-   transition: opacity .20s ease-in-out;
-   -moz-transition: opacity .20s ease-in-out;
-   -webkit-transition: opacity .20s ease-in-out;
+   transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
 }
 
 .selected_work_tile h3:hover {
   opacity: 0.6;
 }
-
 
 .selected_work_container img {
   border: 2px solid black;
