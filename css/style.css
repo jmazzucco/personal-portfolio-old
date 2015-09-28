@@ -167,6 +167,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 #intro_content {
   background-color: rgba(54,69,79,0.85);
   margin-top: 33vh;
+  max-width: 850px;
   border: 2px solid white;
 }
 
@@ -269,18 +270,19 @@ h1 {
   display: inline-block;
   margin: auto;
   background-color: white;
-  width: 30%;
+  width: 25%;
   height: 85%;
   text-align: left;
-  padding: 10px;
+  padding: 2%;
   vertical-align: top;
+  margin-right: 2%;
 }
 
 .tag_container {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px;
+  padding: 7%;
 }
 
 .tech_tag {
@@ -327,7 +329,7 @@ h1 {
 }
 
 .selected_work_tile p {
-  width: 300px;
+  max-width: 300px;
 }
 
 .selected_work_tile p>a:hover {
@@ -384,3 +386,5 @@ h1 {
 #sy_img:hover, #cr_img:hover, #ttt_img:hover  {
   opacity: 0.8;
 }
+
+
