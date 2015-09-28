@@ -280,7 +280,7 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 5%;
+  padding: 10px;
 }
 
 .tech_tag {
@@ -304,6 +304,7 @@ h1 {
 }
 
 .selected_work_tile h3 {
+  font-size: 1.3em;
   color: #424242;
   display: inline-block;
    opacity: 1;
@@ -313,6 +314,20 @@ h1 {
 }
 
 .selected_work_tile h3:hover {
+  opacity: 0.6;
+}
+
+.selected_work_tile p>a {
+  font-weight: 600;
+  color: #424242;
+  display: inline-block;
+   opacity: 1;
+   transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+}
+
+.selected_work_tile p>a:hover {
   opacity: 0.6;
 }
 
