@@ -292,7 +292,6 @@ h1 {
   border-radius: 2px;
   font-weight: 500;
   font-family: sans-serif;
-
 }
 
 .selected_work_tile div {
@@ -325,6 +324,10 @@ h1 {
    transition: opacity .15s ease-in-out;
    -moz-transition: opacity .15s ease-in-out;
    -webkit-transition: opacity .15s ease-in-out;
+}
+
+.selected_work_tile p {
+  width: 300px;
 }
 
 .selected_work_tile p>a:hover {
