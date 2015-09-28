@@ -391,7 +391,6 @@ h1 {
 
   #intro_content {
     width: 65%;
-
   }
 
   #intro_content h1 {
@@ -418,5 +417,47 @@ h1 {
 
 /* media query: 480px - 830px */
 @media (max-width: 830px) {
+  #intro_content {
+  margin-top: 35vh;
+  }
 
-}
+  #intro_content h1 {
+    font-size: 45px;
+  }
+
+  #intro_content h2 {
+    font-size: 15px;
+    margin-top: -20px;
+  }
+
+  #about_content {
+    width: 45%;
+  }
+
+  #ttt_img, #cr_img, #sy_img {
+    height: 150px;
+  }
+
+  .tech_tag {
+    zoom: 0.75;
+  }
+
+  #about_pic {
+    width: 150px;
+  }
+
+ .icons {
+    clear: both;
+    text-align: left;
+    margin-left: 9px;
+  }
+
+  .icons i {
+    zoom: 175%;
+    padding: 0px 3px;
+  }
+
+  .skyline_img {
+    background-position: left;
+
+@media (max-width: 620px) {
