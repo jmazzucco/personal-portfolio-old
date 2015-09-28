@@ -71,6 +71,11 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   right: 0;
 }
 
+.page2 {
+  width: 100%;
+  height: 100%;
+}
+
 #intro_content{
   width: 70%;
   margin: auto;
@@ -78,14 +83,26 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 #about_content {
-  float: left;
-  width: 35vw;
+  display: inline-block;
+  float: right;
+  width: 35%;
   max-width: 400px;
   height: 100%;
   padding: 30px;
   background-color: #F7F7F7;
   margin-right: 10px;
   border: 1px;
+}
+
+.skyline_img {
+  background-image: url(../images/toronto_skyline.jpg);
+  height: 100%;
+  background-color:black;
+  margin-right: 22%;
+
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 .about_tile {
@@ -131,17 +148,10 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 .page1 {
-  background-image: url(../images/abstract_vector.jpg);
+  background-image: url(../images/abstract_vector.png);
   background-repeat:no-repeat;
   background-size:cover;
   background-position: center;
-}
-
-.page2 {
-  background-image: url(../images/toronto_skyline.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:25% 75%;
 }
 
 .page3 {
@@ -297,7 +307,7 @@ h1 {
 #sy_img {
   width: 300px;
   height: 250px;
-  background-image: url(../images/sy_new.png);
+  background-image: url(../images/seatyourself.png);
   background-size:cover;
   background-position: top;
   box-shadow: 0 2px 4px #ACACAC, 0 0 0 1px #DADADA;
