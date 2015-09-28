@@ -90,7 +90,6 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   height: 100%;
   padding: 30px;
   background-color: #F7F7F7;
-  margin-right: 10px;
   border: 1px;
   z-index: 100;
 }
@@ -387,4 +386,37 @@ h1 {
   opacity: 0.8;
 }
 
+/* media query: 830px - 1100px */
+@media (max-width: 1100px) {
 
+  #intro_content {
+    width: 65%;
+
+  }
+
+  #intro_content h1 {
+    font-size: 60px;
+  }
+
+  #intro_content h2 {
+    font-size: 20px;
+  }
+
+  #about_content h1 {
+    margin-top: 10px
+  }
+
+  #ttt_img, #cr_img, #sy_img {
+    height: 200px;
+  }
+
+  .selected_work_tile {
+    width: 28%;
+    margin-right: 0;
+  }
+}
+
+/* media query: 480px - 830px */
+@media (max-width: 830px) {
+
+}
