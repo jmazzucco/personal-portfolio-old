@@ -1,0 +1,146 @@
+html, body {
+	height: 100%;
+}
+
+body {
+  background-image: url("retina_wood.png");
+  background-repeat: repeat;
+  margin-top: -150px;
+}
+
+.navbar {
+	position: fixed;
+	left: 0;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  box-shadow: 0px 5px 40px 3px #000;
+  background-color: rgb(80,80,80);
+}
+
+#title {
+	letter-spacing: 5px;
+	text-align: center;
+	color: #659CEF;
+	line-height: 50px;
+	font-family: sans-serif;
+}
+
+#content {
+	min-height: 100%;
+	margin: 150px auto -31px;
+}
+
+footer {
+	width: 100%;
+	height: 31px;
+	background-color: rgb(80,80,80);
+}
+
+.icons {
+  margin: 0 auto;
+  width: 62px;
+}
+
+#github {
+  width:30px;
+}
+
+#twitter {
+	width: 23px;
+}
+
+#grid {
+	margin: 0 auto;
+
+}
+
+.table-container{
+	padding-top: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+td {
+	height: 150px;
+	width: 150px;
+	border: 15px solid rgb(60,60,60);
+	margin: auto;
+
+	text-align: center;
+	font-size: 16em;
+	overflow: hidden;
+	line-height: 100px;
+}
+
+td:hover {
+	background-color: rgba(255,255,255,0.30);
+}
+
+a {
+	text-decoration: none;
+}
+
+.selected-o {
+	color: tomato;
+}
+
+.selected-x {
+	color:#3D3D3D;
+}
+
+
+@media (max-width: 540px) {
+  body {
+   	margin-top: -60px;
+	}
+
+  .navbar {
+  	height: 50px;
+  	box-shadow: none;
+  }
+
+  #title {
+		letter-spacing: 3px;
+		font-size: 35px;
+		text-align: center;
+		color: #659CEF;
+		line-height: 31px;
+		font-family: sans-serif;
+	}
+
+	#content {
+		margin: 60px auto -31px;
+	}
+
+	td {
+		width: 25vw;
+	  height: 25vw;
+		border: 5px solid rgb(60,60,60);
+		overflow: hidden;
+		text-align: center;
+	}
+
+	td > p {
+		margin: 0;
+		font-size: 39vw;
+  	margin-top: -8vw;
+  /*	vertical-align: initial;*/
+	}
+
+	.table-container{
+		padding-top: 100px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#grid {
+		width: 90vw;
+		table-layout: fixed;
+	}
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		vertical-align: middle;
+	}
+}
