@@ -95,7 +95,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 }
 
 .skyline_img {
-  background-image: url(../images/toronto_skyline.jpg);
+  background-image: url(../images/Toronto_Skyline.jpg);
   height: 100%;
   margin-right: 22%;
   background-repeat:no-repeat;
@@ -524,7 +524,7 @@ h1 {
   }
 
   #about {
-    background-image: url(../images/toronto_skyline.jpg);
+    background-image: url(../images/Toronto_Skyline.jpg);
     height: 86%;
     margin-right: 22%;
     background-repeat:no-repeat;
