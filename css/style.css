@@ -494,6 +494,7 @@ h1 {
   #intro_content h2 {
     margin-top: -35px;
     padding-bottom: 15px;
+    font-size: 13px;
   }
 
   .page2 {
@@ -502,12 +503,10 @@ h1 {
 
   #about_content {
     display: block;
+    float: none;
     height: 95vh;
     width: 100%;
-    margin-left: 5vw;
-    margin-top: -70px;
-    border-bottom: solid black 1px;
-    margin-bottom: 35px;
+    margin: -70px auto 35px auto;
     background-color: initial;
     padding-top: 0;
   }
@@ -518,21 +517,27 @@ h1 {
     padding-left: 0;
     background-color: none;
     padding-top: 0;
+  }
 
+  #about_content p {
+    margin-right: 10px;
   }
 
   #about {
-    height: 100%;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
-background: rgb(206,220,231); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-image: url(../images/toronto_skyline.jpg);
+    height: 86%;
+    margin-right: 22%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: left;
+  }
 
+  #about_pic {
+    width: 40%;
+  }
+
+  .about_tile p {
+    font-size: 0.85em;
   }
 
   .skyline_img {
@@ -541,6 +546,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 
   .icons i {
     opacity: 1;
+    padding: 0;
+    padding-right: 1vw;
+    zoom:1.5;
   }
 
   .wrapper {
@@ -567,6 +575,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
     height: auto;
   }
 
+  .selected_work_tile p {
+    font-size: 0.85em;
+  }
+
   #selected_work {
     margin: auto;
     padding-left: 0;
@@ -576,8 +588,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 
   #selected_work h1 {
     font-size: 28px;
-        text-align: left;
+    text-align: left;
     padding-left: 0;
+    margin-top: 40px;
   }
 
   .tag_container {
